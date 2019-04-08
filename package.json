@@ -19,7 +19,7 @@
   "scripts": {
     "s": "hexo server",
     "g": "hexo generate",
-    "d": "hexo deploy"
+    "d": "hexo deploy -g"
   },
   "devDependencies": {
     "hexo-deployer-git": "^1.0.0"
