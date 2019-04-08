@@ -5,7 +5,7 @@ tags:
 ---
 创建空分支
 ```bash
-git checkout --orphan <BRANCH_NAME> && git rm -rf .
+git checkout --orphan <BRANCH_NAME>
 ```
 
 更新远程分支列表
