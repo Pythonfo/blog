@@ -3,6 +3,10 @@ title: Git
 date: 2019-04-08 21:01:38
 tags:
 ---
+创建空分支
+```bash
+git checkout --orphan <BRANCH_NAME> && git rm -rf .
+```
 
 更新远程分支列表
 ```bash
